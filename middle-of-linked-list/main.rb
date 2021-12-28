@@ -3,8 +3,8 @@
 class ListNode
   attr_accessor :val, :next
   def initialize(val = 0, _next = nil)
-      @val = val
-      @next = _next
+    @val = val
+    @next = _next
   end
 end
 
@@ -12,7 +12,7 @@ end
 @return {ListNode}
 def middle_node(head)
   slow_pointer = head
-    fast_pointer = head
+  fast_pointer = head
 
   while fast_pointer && fast_pointer.next do
     slow_pointer = slow_pointer.next
