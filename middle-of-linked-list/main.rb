@@ -8,8 +8,8 @@ class ListNode
   end
 end
 
-@param {ListNode} head
-@return {ListNode}
+# @param {ListNode} head
+# @return {ListNode}
 def middle_node(head)
   slow_pointer = head
   fast_pointer = head
